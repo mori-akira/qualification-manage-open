@@ -863,7 +863,7 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "OSS-DB Silver Ver.2.0"
+            "value": "OSS-DB Silver"
         },
         {
             "type": "text",
@@ -874,6 +874,11 @@
             "type": "text",
             "label": "提供団体",
             "value": "LPI-Japan"
+        },
+        {
+            "type": "text",
+            "label": "バージョン",
+            "value": "2.0"
         },
         {
             "type": "text",
@@ -904,7 +909,7 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "OSS-DB Gold Ver.3.0"
+            "value": "OSS-DB Gold"
         },
         {
             "type": "text",
@@ -915,6 +920,11 @@
             "type": "text",
             "label": "提供団体",
             "value": "LPI-Japan"
+        },
+        {
+            "type": "text",
+            "label": "バージョン",
+            "value": "3.0"
         },
         {
             "type": "anchor-row",
