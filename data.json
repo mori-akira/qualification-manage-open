@@ -693,7 +693,7 @@
         {
             "type": "text",
             "label": "期限日",
-            "value": "2029-05-19"
+            "value": "2029-06-10"
         },
         {
             "type": "anchor-row",
@@ -730,6 +730,16 @@
             "type": "text",
             "label": "バージョン",
             "value": "10.0"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-06-10"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2029-06-10"
         },
         {
             "type": "anchor-row",
