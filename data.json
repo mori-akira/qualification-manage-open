@@ -420,7 +420,7 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "UMTP認定試験 L1: UML2.0ベース"
+            "value": "UMTP UMLモデリング技能認定試験 L1"
         },
         {
             "type": "text",
@@ -431,6 +431,11 @@
             "type": "text",
             "label": "提供団体",
             "value": "UMTP"
+        },
+        {
+            "type": "text",
+            "label": "バージョン",
+            "value": "UML2.0ベース"
         },
         {
             "type": "anchor-row",
@@ -446,7 +451,7 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "UMTP認定試験 L2: UML2.0ベース"
+            "value": "UMTP UMLモデリング技能認定試験 L2"
         },
         {
             "type": "text",
@@ -457,6 +462,11 @@
             "type": "text",
             "label": "提供団体",
             "value": "UMTP"
+        },
+        {
+            "type": "text",
+            "label": "バージョン",
+            "value": "UML2.0ベース"
         },
         {
             "type": "anchor-row",
@@ -658,7 +668,7 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "LinuCレベル1 Version10.0"
+            "value": "LinuCレベル1"
         },
         {
             "type": "text",
@@ -669,6 +679,11 @@
             "type": "text",
             "label": "提供団体",
             "value": "LPI-Japan"
+        },
+        {
+            "type": "text",
+            "label": "バージョン",
+            "value": "10.0"
         },
         {
             "type": "text",
@@ -699,7 +714,7 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "LinuCレベル2 Version10.0"
+            "value": "LinuCレベル2"
         },
         {
             "type": "text",
@@ -710,6 +725,11 @@
             "type": "text",
             "label": "提供団体",
             "value": "LPI-Japan"
+        },
+        {
+            "type": "text",
+            "label": "バージョン",
+            "value": "10.0"
         },
         {
             "type": "anchor-row",
