@@ -358,6 +358,32 @@
     [
         {
             "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Certified ScrumMaster"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Scrum Alliance"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+        }
+    ],
+    [
+        {
+            "type": "type",
             "value": "having"
         },
         {
@@ -750,12 +776,12 @@
     [
         {
             "type": "type",
-            "value": "dream"
+            "value": "planning"
         },
         {
             "type": "text",
             "label": "資格名",
-            "value": "LinuCレベル3"
+            "value": "LinuCレベル3 304 Virtualization & High Availability"
         },
         {
             "type": "text",
@@ -770,7 +796,7 @@
         {
             "type": "anchor-row",
             "label": "URL",
-            "value": "https://linuc.org/linuc3/"
+            "value": "https://linuc.org/linuc3/304.html"
         }
     ],
     [
