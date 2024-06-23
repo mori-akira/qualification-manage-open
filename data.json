@@ -719,7 +719,7 @@
         {
             "type": "text",
             "label": "期限日",
-            "value": "2029-06-10"
+            "value": "2029-06-23"
         },
         {
             "type": "anchor-row",
@@ -765,18 +765,23 @@
         {
             "type": "text",
             "label": "期限日",
-            "value": "2029-06-10"
+            "value": "2029-06-23"
         },
         {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://linuc.org/linuc2/"
+        },
+        {
+            "type": "anchor-row",
+            "label": "認定照会",
+            "value": "https://ma.educo-j.or.jp/l/EID900026182/2t24dlq6rl"
         }
     ],
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -794,9 +799,24 @@
             "value": "LPI-Japan"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-06-23"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2029-06-23"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://linuc.org/linuc3/304.html"
+        },
+        {
+            "type": "anchor-row",
+            "label": "認定照会",
+            "value": "https://ma.educo-j.or.jp/l/EID900026182/tt9bp448hn"
         }
     ],
     [
