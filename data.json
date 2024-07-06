@@ -327,7 +327,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -348,6 +348,11 @@
             "type": "text",
             "label": "提供団体",
             "value": "IPA"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-07-04"
         },
         {
             "type": "anchor-row",
