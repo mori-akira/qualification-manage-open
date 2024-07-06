@@ -1296,6 +1296,11 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://aws.amazon.com/jp/certification/certified-cloud-practitioner/"
+        },
+        {
+            "type": "anchor-label",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/a5f53ffe-e2d5-4c5f-83a2-55b290bdfb8e"
         }
     ],
     [
