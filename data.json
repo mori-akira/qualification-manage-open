@@ -363,32 +363,6 @@
     [
         {
             "type": "type",
-            "value": "planning"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "Certified ScrumMaster"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "B"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "Scrum Alliance"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
-        }
-    ],
-    [
-        {
-            "type": "type",
             "value": "having"
         },
         {
@@ -1260,6 +1234,32 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://www.phpexam.jp/summary/expert8"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Certified ScrumMaster"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Scrum Alliance"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
         }
     ],
     [
