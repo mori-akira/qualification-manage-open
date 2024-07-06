@@ -1265,6 +1265,68 @@
         {
             "type": "text",
             "label": "資格名",
+            "value": "AWS Certified Cloud Practitioner"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-07-06"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2027-07-06"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-cloud-practitioner/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified Solutions Architect - Associate"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
             "value": "Google Certification Associate Cloud Engineer"
         },
         {
