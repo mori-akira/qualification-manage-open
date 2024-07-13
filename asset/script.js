@@ -10,6 +10,12 @@ $(async () => {
     const infoList = $('#info-list');
 
     let index = 1;
+    const rankCount = {
+        'A': 0,
+        'B': 0,
+        'C': 0,
+        'D': 0,
+    }
     data.forEach((e, _) => {
         const type = e.filter(f => 'type' === f.type)[0].value;
         if (!targets.includes(type)) {
@@ -62,7 +68,18 @@ $(async () => {
         });
         infoList.append(div);
         index++;
+
+        const rank = e.filter(f => '社内ランク' === f.label)[0]?.value;
+        if (rank) {
+            rankCount[rank]++;
+        }
     });
+
+    // 資格サマリを更新
+    $('#A-rank').text(rankCount['A']);
+    $('#B-rank').text(rankCount['B']);
+    $('#C-rank').text(rankCount['C']);
+    $('#D-rank').text(rankCount['D']);
 
     // 一覧アイテム押下時のスクロール
     $('table.qualification-list > tbody > tr').each((_, e) => {
