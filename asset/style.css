@@ -198,11 +198,8 @@ a.page-link {
 
 .summary {
   display: flex;
-  justify-content: space-between;
-}
-
-.summary .summary-item {
-  width: calc(25% - 1rem);
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
 }
 
 .summary .summary-item .label,
