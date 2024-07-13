@@ -1239,7 +1239,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -1257,9 +1257,24 @@
             "value": "Scrum Alliance"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-07-13"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2026-07-13"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+        },
+        {
+            "type": "anchor-label",
+            "label": "バッジ",
+            "value": "https://bcert.me/bc/html/show-badge.html?b=ldvigmhb"
         }
     ],
     [
