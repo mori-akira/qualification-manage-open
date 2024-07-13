@@ -199,7 +199,7 @@ a.page-link {
 .summary {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .summary .summary-item .label,
