@@ -202,12 +202,28 @@ a.page-link {
   margin-bottom: 1rem;
 }
 
-.summary .summary-item .label,
-.summary .summary-item .value {
+.label,
+.value {
   font-size: 1.2rem;
 }
 
-.summary .summary-item .value {
+.value {
   font-weight: bold;
   margin-left: 0.5rem;
+}
+
+.rank.A {
+  color: #3388FF
+}
+
+.rank.B {
+  color: #33BB55
+}
+
+.rank.C {
+  color: #FF5522
+}
+
+.rank.D {
+  color: #DDCC33
 }
