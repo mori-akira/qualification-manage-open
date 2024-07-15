@@ -36,7 +36,12 @@ $(async () => {
             tr.addClass('expired');
         }
         ['資格名', '社内ランク', '提供団体', '取得日', '期限日'].forEach(f => {
-            tr.append($(`<td>${e.filter(g => f === g.label)[0]?.value ?? '-'}</td>`));
+            if (f === '社内ランク') {
+                const rank = e.filter(g => f === g.label)[0]?.value ?? '-';
+                tr.append($(`<td><span class="value rank ${rank}">${rank}</span></td>`));
+            } else {
+                tr.append($(`<td>${e.filter(g => f === g.label)[0]?.value ?? '-'}</td>`));
+            }
         });
         infoTable.append(tr);
 
