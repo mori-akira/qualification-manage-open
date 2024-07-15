@@ -202,8 +202,7 @@ a.page-link {
   margin-bottom: 1rem;
 }
 
-.label,
-.value {
+.label {
   font-size: 1.2rem;
 }
 
@@ -213,17 +212,17 @@ a.page-link {
 }
 
 .rank.A {
-  color: #3388FF
+  color: #3399FF
 }
 
 .rank.B {
-  color: #33BB55
+  color: #33DD55
 }
 
 .rank.C {
-  color: #EE8822
+  color: #FF9922
 }
 
 .rank.D {
-  color: #DDCC33
+  color: #BBBB33
 }
