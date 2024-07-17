@@ -1,104 +1,101 @@
-$(async () => {
-    const response = await fetch('./data.json');
-    const data = await response.json();
-    const targets = $('meta[name="target"]').attr('content').split(',');
+// 定数の定義
+const FILE_PATH = './data.json';
+const TARGET_META_NAME = 'target';
+const DATE_FORMAT = 'sv-SE';
+const RANKS = ['A', 'B', 'C', 'D'];
+const FIELD_LABELS = ['資格名', '社内ランク', '提供団体', '取得日', '期限日'];
 
-    const infoTable = $('#info-table').children('tbody');
-    const infoList = $('#info-list');
+// データの取得
+const fetchData = async (filePath) => {
+    const response = await fetch(filePath);
+    return response.json();
+};
 
-    let index = 1;
-    const rankCount = {
-        'A': 0,
-        'B': 0,
-        'C': 0,
-        'D': 0,
+// 表示対象の項目を取得
+const getTargets = () => {
+    return $('meta[name="' + TARGET_META_NAME + '"]').attr('content').split(',');
+};
+
+// 期限切れかどうかの判定
+const isExpired = (dateString) => {
+    const today = new Date().toLocaleDateString(DATE_FORMAT);
+    return dateString && today > dateString;
+};
+
+// テーブル行の生成
+const createTableRow = (e, index, expired) => {
+    const tr = $(`<tr data-target="id_${index}"><td>${index}</td></tr>`);
+    if (expired) {
+        tr.addClass('expired');
     }
-    data.forEach((e, _) => {
-        // 表示対象の項目を絞り込み
-        const type = e.filter(f => 'type' === f.type)[0].value;
-        if (!targets.includes(type)) {
-            return;
-        }
-
-        // 期限切れか判定
-        let expired = false;
-        if (e.filter(f => '期限日' === f.label)[0]) {
-            const expiredDate = e.filter(f => '期限日' === f.label)[0].value;
-            const today = new Date().toLocaleDateString('sv-SE');
-            if (today > expiredDate) {
-                expired = true;
-            }
-        }
-
-        // 一覧の行を追加
-        const tr = $(`<tr data-target=${"id_" + index}><td>${index}</td></tr>`);
-        if (expired) {
-            tr.addClass('expired');
-        }
-        ['資格名', '社内ランク', '提供団体', '取得日', '期限日'].forEach(f => {
-            if (f === '社内ランク') {
-                const rank = e.filter(g => f === g.label)[0]?.value ?? '-';
-                tr.append($(`<td><span class="value rank ${rank}">${rank}</span></td>`));
-            } else {
-                tr.append($(`<td>${e.filter(g => f === g.label)[0]?.value ?? '-'}</td>`));
-            }
-        });
-        infoTable.append(tr);
-
-        // 詳細の情報を追加
-        infoList.append($(`<h2 id=${"id_" + index}>${e.filter(f => '資格名' === f.label)[0]?.value ?? '-'}</h2>`));
-        const div = $('<div class="qualification-info"></div>')
-        e.forEach(f => {
-            if ('type' === f.type) {
-                return;
-            }
-            div.append($(`<span>${f.label}</span>`));
-            switch (f.type) {
-                case 'text':
-                    div.append($(`<span>${f.value}</span><br>`));
-                    break;
-                case 'anchor-row':
-                    div.append($(`<span><a href="${f.value}" target="_blank">${f.value}</a></span><br>`));
-                    break;
-                case 'anchor-label':
-                    div.append($(`<span><a href="${f.value}" target="_blank">${f.label}</a></span><br>`));
-                    break;
-                case 'anchor-auth':
-                    const target = btoa(encodeURIComponent(f.value));
-                    div.append($(`<span><a href="./auth.html?target=${target}" target="_blank">${f.label}</a></span><br>`));
-                    break;
-                default:
-                    div.append($(`<span>${f.value}</span><br>`));
-                    break;
-            }
-        });
-        infoList.append(div);
-        index++;
-
-        // ランク
-        const rank = e.filter(f => '社内ランク' === f.label)[0]?.value;
-        if (rank && !expired) {
-            rankCount[rank]++;
+    FIELD_LABELS.forEach(f => {
+        if (f === '社内ランク') {
+            const rank = e.find(g => f === g.label)?.value ?? '-';
+            tr.append($(`<td><span class="value rank ${rank}">${rank}</span></td>`));
+        } else {
+            tr.append($(`<td>${e.find(g => f === g.label)?.value ?? '-'}</td>`));
         }
     });
+    return tr;
+};
 
-    // 資格サマリを更新
-    $('#A-rank').text(rankCount['A']);
-    $('#B-rank').text(rankCount['B']);
-    $('#C-rank').text(rankCount['C']);
-    $('#D-rank').text(rankCount['D']);
+// 詳細情報の生成
+const createDetailInfo = (e, index) => {
+    const detail = $(`<h2 id="id_${index}">${e.find(f => '資格名' === f.label)?.value ?? '-'}</h2>`);
+    const div = $('<div class="qualification-info"></div>');
+    e.forEach(f => {
+        if ('type' === f.type) return;
+        div.append($(`<span>${f.label}</span>`));
+        switch (f.type) {
+            case 'text':
+                div.append($(`<span>${f.value}</span><br>`));
+                break;
+            case 'anchor-row':
+                div.append($(`<span><a href="${f.value}" target="_blank">${f.value}</a></span><br>`));
+                break;
+            case 'anchor-label':
+                div.append($(`<span><a href="${f.value}" target="_blank">${f.label}</a></span><br>`));
+                break;
+            case 'anchor-auth':
+                const target = btoa(encodeURIComponent(f.value));
+                div.append($(`<span><a href="./auth.html?target=${target}" target="_blank">${f.label}</a></span><br>`));
+                break;
+            default:
+                div.append($(`<span>${f.value}</span><br>`));
+                break;
+        }
+    });
+    return { detail, div };
+};
 
-    // 一覧アイテム押下時のスクロール
+// ランクカウントの更新
+const updateRankCount = (rankCount, rank, expired) => {
+    if (rank && !expired) {
+        rankCount[rank]++;
+    }
+};
+
+// 資格サマリの更新
+const updateSummary = (rankCount) => {
+    RANKS.forEach(rank => {
+        $(`#${rank}-rank`).text(rankCount[rank]);
+    });
+};
+
+// イベントリスナーの設定
+const setEventListeners = () => {
     $('table.qualification-list > tbody > tr').each((_, e) => {
-        let target = $(e).attr('data-target');
+        const target = $(e).attr('data-target');
         if (target) {
             $(e).click(() => {
                 $(window).scrollTop($(`#${target}`).position().top);
             });
         }
     });
+};
 
-    // データテーブル適用
+// DataTableの初期化
+const initializeDataTable = () => {
     $('.qualification-list').DataTable({
         lengthChange: false,
         searching: true,
@@ -106,4 +103,35 @@ $(async () => {
         info: false,
         paging: false
     });
-});
+};
+
+// メイン関数
+const main = async () => {
+    const data = await fetchData(FILE_PATH);
+    const targets = getTargets();
+    const infoTable = $('#info-table').children('tbody');
+    const infoList = $('#info-list');
+    let index = 1;
+    const rankCount = { 'A': 0, 'B': 0, 'C': 0, 'D': 0 };
+
+    data.forEach(e => {
+        const type = e.find(f => 'type' === f.type)?.value;
+        if (!targets.includes(type)) return;
+
+        const expired = isExpired(e.find(f => '期限日' === f.label)?.value);
+        infoTable.append(createTableRow(e, index, expired));
+        const { detail, div } = createDetailInfo(e, index);
+        infoList.append(detail);
+        infoList.append(div);
+
+        updateRankCount(rankCount, e.find(f => '社内ランク' === f.label)?.value, expired);
+        index++;
+    });
+
+    updateSummary(rankCount);
+    setEventListeners();
+    initializeDataTable();
+};
+
+// 実行
+$(main);
