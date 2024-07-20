@@ -1311,7 +1311,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -1329,9 +1329,24 @@
             "value": "Amazon"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-07-20"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2027-07-20"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/"
+        },
+        {
+            "type": "anchor-label",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/be575f04-6de2-43af-b610-7530521a984a"
         }
     ],
     [
