@@ -487,6 +487,37 @@
         {
             "type": "text",
             "label": "資格名",
+            "value": "UMTP UMLモデリング技能認定試験 L3"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "UMTP"
+        },
+        {
+            "type": "text",
+            "label": "バージョン",
+            "value": "UML2.0ベース"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://umtp-japan.org/about_exam/exam_gaiyo/l3"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
             "value": "JSTQB認定テスト技術者資格試験 Foundation Level"
         },
         {
@@ -970,99 +1001,6 @@
     [
         {
             "type": "type",
-            "value": "dream"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "認定Kubernetes管理者"
-        },
-        {
-            "type": "text",
-            "label": "略称",
-            "value": "CKA-JP"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "B"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "LPI-Japan"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://lpi.or.jp/k8s/#CKA"
-        }
-    ],
-    [
-        {
-            "type": "type",
-            "value": "planning"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "認定Kubernetesクラウドネイティブアソシエイト"
-        },
-        {
-            "type": "text",
-            "label": "略称",
-            "value": "KCNA-JP"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "C"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "LPI-Japan"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://lpi.or.jp/k8s/#KCNA"
-        }
-    ],
-    [
-        {
-            "type": "type",
-            "value": "planning"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "認定Kubernetesアプリケーション開発者"
-        },
-        {
-            "type": "text",
-            "label": "略称",
-            "value": "CKAD-JP"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "B"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "LPI-Japan"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://lpi.or.jp/k8s/#CKAD"
-        }
-    ],
-    [
-        {
-            "type": "type",
             "value": "having"
         },
         {
@@ -1326,6 +1264,58 @@
         {
             "type": "text",
             "label": "資格名",
+            "value": "AWS Certified Data Engineer - Associate"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-data-engineer-associate/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified Developer - Associate"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-developer-associate/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
             "value": "AWS Certified Solutions Architect - Associate"
         },
         {
@@ -1342,6 +1332,162 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified SysOps Administrator - Associate"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-sysops-admin-associate/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified DevOps Engineer - Professional"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-devops-engineer-professional/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified Solutions Architect - Professional"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-solutions-architect-professional/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified Advanced Networking - Specialty"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-advanced-networking-specialty/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified Machine Learning - Specialty"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-machine-learning-specialty/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified Security - Specialty"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-security-specialty/"
         }
     ],
     [
@@ -1393,7 +1539,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "dream"
         },
         {
             "type": "text",
@@ -1414,84 +1560,6 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://cloud.google.com/learn/certification/cloud-architect?hl=ja"
-        }
-    ],
-    [
-        {
-            "type": "type",
-            "value": "dream"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "Google Certification Professional Cloud Developer"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "B"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "Google"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://cloud.google.com/learn/certification/cloud-developer?hl=ja"
-        }
-    ],
-    [
-        {
-            "type": "type",
-            "value": "dream"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "Google Certification Professional Data Engineer"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "B"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "Google"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://cloud.google.com/learn/certification/data-engineer?hl=ja"
-        }
-    ],
-    [
-        {
-            "type": "type",
-            "value": "planning"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "Google Certification Professional Cloud Network Engineer"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "B"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "Google"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://cloud.google.com/learn/certification/cloud-network-engineer?hl=ja"
         }
     ]
 ]
