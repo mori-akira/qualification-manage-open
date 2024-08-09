@@ -1243,7 +1243,7 @@
         {
             "type": "text",
             "label": "期限日",
-            "value": "2027-07-20"
+            "value": "2027-08-09"
         },
         {
             "type": "anchor-row",
@@ -1285,7 +1285,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -1303,9 +1303,24 @@
             "value": "Amazon"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-08-09"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2027-08-09"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://aws.amazon.com/jp/certification/certified-developer-associate/"
+        },
+        {
+            "type": "anchor-label",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/0025db9c-55be-477b-8871-303357cee0fc"
         }
     ],
     [
