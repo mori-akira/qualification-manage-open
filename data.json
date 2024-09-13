@@ -1259,7 +1259,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "dream"
         },
         {
             "type": "text",
@@ -1486,7 +1486,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "dream"
         },
         {
             "type": "text",
@@ -1512,7 +1512,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "dream"
         },
         {
             "type": "text",
@@ -1538,12 +1538,38 @@
     [
         {
             "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Google Cloud Certified Cloud Digital Leader"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Google"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cloud.google.com/learn/certification/cloud-digital-leader?hl=ja"
+        }
+    ],
+    [
+        {
+            "type": "type",
             "value": "having"
         },
         {
             "type": "text",
             "label": "資格名",
-            "value": "Google Certification Associate Cloud Engineer"
+            "value": "Google Cloud Certified Associate Cloud Engineer"
         },
         {
             "type": "text",
@@ -1584,12 +1610,12 @@
     [
         {
             "type": "type",
-            "value": "dream"
+            "value": "planning"
         },
         {
             "type": "text",
             "label": "資格名",
-            "value": "Google Certification Professional Cloud Architect"
+            "value": "Google Cloud Certified Professional Cloud Architect"
         },
         {
             "type": "text",
@@ -1605,6 +1631,58 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://cloud.google.com/learn/certification/cloud-architect?hl=ja"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Google Cloud Certified Professional Cloud Developer"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Google"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cloud.google.com/learn/certification/cloud-developer?hl=ja"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Google Cloud Certified Professional Data Engineer"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Google"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cloud.google.com/learn/certification/data-engineer?hl=ja"
         }
     ]
 ]
