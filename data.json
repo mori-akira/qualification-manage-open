@@ -1094,6 +1094,32 @@
     [
         {
             "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Python3エンジニア認定データ分析実践試験"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "一般社団法人Pythonエンジニア育成推進協会"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cbt.odyssey-com.co.jp/pythonic-exam/python3cpda.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
             "value": "having"
         },
         {
