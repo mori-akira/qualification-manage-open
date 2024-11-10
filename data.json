@@ -1682,6 +1682,11 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://cloud.google.com/learn/certification/cloud-architect?hl=ja"
+        },
+        {
+            "type": "anchor-label",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/a1781e76-6b66-46f5-bd92-ef1bddf927ce"
         }
     ],
     [
