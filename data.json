@@ -1749,6 +1749,11 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://cloud.google.com/learn/certification/data-engineer?hl=ja"
+        },
+        {
+            "type": "anchor-label",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/4474089d-153f-4216-b633-74b59ab94218"
         }
     ]
 ]
