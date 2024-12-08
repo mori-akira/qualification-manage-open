@@ -1151,58 +1151,6 @@
     [
         {
             "type": "type",
-            "value": "dream"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "PHP8技術者認定準上級試験"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "C"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "PHP技術者認定機構"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://www.phpexam.jp/summary/expert8"
-        }
-    ],
-    [
-        {
-            "type": "type",
-            "value": "dream"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "PHP8技術者認定上級試験"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "B"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "PHP技術者認定機構"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://www.phpexam.jp/summary/expert8"
-        }
-    ],
-    [
-        {
-            "type": "type",
             "value": "having"
         },
         {
