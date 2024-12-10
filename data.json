@@ -1640,7 +1640,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -1656,6 +1656,16 @@
             "type": "text",
             "label": "提供団体",
             "value": "Google"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-12-10"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2027-01-10"
         },
         {
             "type": "anchor-row",
