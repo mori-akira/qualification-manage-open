@@ -1671,6 +1671,11 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://cloud.google.com/learn/certification/cloud-developer?hl=ja"
+        },
+        {
+            "type": "anchor-label",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/63b1195d-1397-43c7-a20b-27d958bca293"
         }
     ],
     [
