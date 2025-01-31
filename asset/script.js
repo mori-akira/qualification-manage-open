@@ -3,7 +3,7 @@ const FILE_PATH = './data.json';
 const TARGET_META_NAME = 'target';
 const DATE_FORMAT = 'sv-SE';
 const RANKS = ['A', 'B', 'C', 'D'];
-const FIELD_LABELS = ['資格名', '社内ランク', '提供団体', '取得日', '期限日'];
+const FIELD_LABELS = ['資格名', 'ランク', '提供団体', '取得日', '期限日'];
 
 // データの取得
 const fetchData = async (filePath) => {
@@ -29,7 +29,7 @@ const createTableRow = (e, index, expired) => {
         tr.addClass('expired');
     }
     FIELD_LABELS.forEach(f => {
-        if (f === '社内ランク') {
+        if (f === 'ランク') {
             const rank = e.find(g => f === g.label)?.value ?? '-';
             tr.append($(`<td><span class="value rank ${rank}">${rank}</span></td>`));
         } else {
@@ -124,7 +124,7 @@ const main = async () => {
         infoList.append(detail);
         infoList.append(div);
 
-        updateRankCount(rankCount, e.find(f => '社内ランク' === f.label)?.value, expired);
+        updateRankCount(rankCount, e.find(f => 'ランク' === f.label)?.value, expired);
         index++;
     });
 
