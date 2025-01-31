@@ -1253,7 +1253,33 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "AWS Certified Data Engineer - Associate"
+            "value": "AWS Certified AI Practitioner"
+        },
+        {
+            "type": "text",
+            "label": "ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-ai-practitioner/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified SysOps Administrator - Associate"
         },
         {
             "type": "text",
@@ -1266,9 +1292,24 @@
             "value": "Amazon"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-08-18"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2027-08-18"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
-            "value": "https://aws.amazon.com/jp/certification/certified-data-engineer-associate/"
+            "value": "https://aws.amazon.com/jp/certification/certified-sysops-admin-associate/"
+        },
+        {
+            "type": "anchor-label",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/2ca13974-b238-4b7a-b46c-2748d779ab85"
         }
     ],
     [
@@ -1356,12 +1397,12 @@
     [
         {
             "type": "type",
-            "value": "having"
+            "value": "dream"
         },
         {
             "type": "text",
             "label": "資格名",
-            "value": "AWS Certified SysOps Administrator - Associate"
+            "value": "AWS Certified Data Engineer - Associate"
         },
         {
             "type": "text",
@@ -1374,24 +1415,9 @@
             "value": "Amazon"
         },
         {
-            "type": "text",
-            "label": "取得日",
-            "value": "2024-08-18"
-        },
-        {
-            "type": "text",
-            "label": "期限日",
-            "value": "2027-08-18"
-        },
-        {
             "type": "anchor-row",
             "label": "URL",
-            "value": "https://aws.amazon.com/jp/certification/certified-sysops-admin-associate/"
-        },
-        {
-            "type": "anchor-label",
-            "label": "バッジ",
-            "value": "https://www.credly.com/badges/2ca13974-b238-4b7a-b46c-2748d779ab85"
+            "value": "https://aws.amazon.com/jp/certification/certified-data-engineer-associate/"
         }
     ],
     [
@@ -1402,12 +1428,12 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "AWS Certified DevOps Engineer - Professional"
+            "value": "AWS Certified Machine Learning Engineer - Associate"
         },
         {
             "type": "text",
             "label": "ランク",
-            "value": "B"
+            "value": "C"
         },
         {
             "type": "text",
@@ -1417,7 +1443,7 @@
         {
             "type": "anchor-row",
             "label": "URL",
-            "value": "https://aws.amazon.com/jp/certification/certified-devops-engineer-professional/"
+            "value": "https://aws.amazon.com/jp/certification/certified-machine-learning-engineer-associate/"
         }
     ],
     [
@@ -1444,6 +1470,32 @@
             "type": "anchor-row",
             "label": "URL",
             "value": "https://aws.amazon.com/jp/certification/certified-solutions-architect-professional/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "AWS Certified DevOps Engineer - Professional"
+        },
+        {
+            "type": "text",
+            "label": "ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Amazon"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://aws.amazon.com/jp/certification/certified-devops-engineer-professional/"
         }
     ],
     [
