@@ -233,6 +233,10 @@ p.annotation {
   min-width: 20rem;
   margin: 1rem auto;
   padding: 1rem;
-  background-color: #dfefff;
+  background-color: #ddd;
   border-radius: 1rem;
+}
+
+p.annotation.info {
+  background-color: #dfefff;
 }
