@@ -28,6 +28,32 @@
     [
         {
             "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "貸金業務取扱主任者"
+        },
+        {
+            "type": "text",
+            "label": "ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "日本貸金業境界"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.j-fsa.or.jp/chief/"
+        }
+    ],
+    [
+        {
+            "type": "type",
             "value": "having"
         },
         {
