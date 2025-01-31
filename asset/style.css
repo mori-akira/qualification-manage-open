@@ -229,8 +229,6 @@ a.page-link {
 
 p.annotation {
   display: block;
-  width: 80%;
-  min-width: 20rem;
   margin: 1rem auto;
   padding: 1rem;
   background-color: #ddd;
