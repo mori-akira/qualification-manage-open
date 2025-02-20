@@ -73,22 +73,22 @@ table.list tr:hover td {
 }
 
 table.list td:nth-of-type(1) {
-  width: 4%;
+  width: 2%;
   text-align: center;
 }
 
 table.list td:nth-of-type(2) {
-  width: 42%;
+  width: 41%;
   text-align: left;
 }
 
 table.list td:nth-of-type(3) {
-  width: 10%;
+  width: 9%;
   text-align: center;
 }
 
 table.list td:nth-of-type(4) {
-  width: 20%;
+  width: 24%;
   text-align: left;
 }
 
