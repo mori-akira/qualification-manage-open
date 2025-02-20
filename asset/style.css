@@ -78,12 +78,12 @@ table.list td:nth-of-type(1) {
 }
 
 table.list td:nth-of-type(2) {
-  width: 41%;
+  width: 40.5%;
   text-align: left;
 }
 
 table.list td:nth-of-type(3) {
-  width: 9%;
+  width: 9.5%;
   text-align: center;
 }
 
