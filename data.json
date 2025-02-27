@@ -7,12 +7,12 @@
             {
                 "type": "text",
                 "label": "資格名",
-                "value": "TOIEC (800)"
+                "value": "TOIEC (700)"
             },
             {
                 "type": "text",
                 "label": "ランク",
-                "value": "B"
+                "value": "C"
             },
             {
                 "type": "text",
