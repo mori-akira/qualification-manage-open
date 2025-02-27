@@ -1279,7 +1279,7 @@
         [
             {
                 "type": "type",
-                "value": "planning"
+                "value": "having"
             },
             {
                 "type": "text",
@@ -1297,9 +1297,24 @@
                 "value": "Amazon"
             },
             {
+                "type": "text",
+                "label": "取得日",
+                "value": "2025-02-27"
+            },
+            {
+                "type": "text",
+                "label": "期限日",
+                "value": "2028-02-27"
+            },
+            {
                 "type": "anchor-row",
                 "label": "URL",
                 "value": "https://aws.amazon.com/jp/certification/certified-ai-practitioner/"
+            },
+            {
+                "type": "anchor-label",
+                "label": "バッジ",
+                "value": "https://www.credly.com/badges/0c14c881-d6f0-4d23-b4d2-8cb6d1e2e32e"
             }
         ],
         [
