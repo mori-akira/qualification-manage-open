@@ -95,11 +95,13 @@ table.list td:nth-of-type(4) {
 table.list td:nth-of-type(5) {
   width: 11.75%;
   text-align: center;
+  white-space: nowrap;
 }
 
 table.list td:nth-of-type(6) {
   width: 11.75%;
   text-align: center;
+  white-space: nowrap;
 }
 
 a.page-link {
