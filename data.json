@@ -549,7 +549,7 @@
             {
                 "type": "text",
                 "label": "ランク",
-                "value": "D"
+                "value": "C"
             },
             {
                 "type": "text",
@@ -580,7 +580,7 @@
             {
                 "type": "text",
                 "label": "ランク",
-                "value": "C"
+                "value": "B"
             },
             {
                 "type": "text",
@@ -606,7 +606,7 @@
             {
                 "type": "text",
                 "label": "ランク",
-                "value": "C"
+                "value": "B"
             },
             {
                 "type": "text",
@@ -668,7 +668,7 @@
             {
                 "type": "text",
                 "label": "ランク",
-                "value": "D"
+                "value": "C"
             },
             {
                 "type": "text",
@@ -704,7 +704,7 @@
             {
                 "type": "text",
                 "label": "ランク",
-                "value": "C"
+                "value": "B"
             },
             {
                 "type": "text",
